@@ -1,12 +1,7 @@
-﻿using azure_learn.StorageAccount;
+﻿using azure_learn.GraphApi;
+using azure_learn.StorageAccount;
 
-namespace azure_learn
-{
-    internal class Program
-    {
-        static async Task Main(string[] args)
-        {
-            await new BlobLearn().Exec();
-        }
-    }
-}
+// StorageAccount Learn
+await new StorageAccount().Exec();
+// GraphApi Learn
+await new GraphApi().Exec();

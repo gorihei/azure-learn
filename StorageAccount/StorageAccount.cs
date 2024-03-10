@@ -6,11 +6,11 @@ using System.Text;
 
 namespace azure_learn.StorageAccount
 {
-    public class BlobLearn
+    public class StorageAccount
     {
         private readonly string _connectionString;
 
-        public BlobLearn()
+        public StorageAccount()
         {
             _connectionString = KeyVault.KeyVault.GetSecret("StorageAccountConnectionString");
         }

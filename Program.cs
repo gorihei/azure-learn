@@ -3,11 +3,11 @@ using azure_learn.QueueStorage;
 using azure_learn.ServiceBus;
 using azure_learn.StorageAccount;
 
-//// StorageAccount Learn
+// StorageAccount Learn
 await new StorageAccount().Exec();
-//// GraphApi Learn
+// GraphApi Learn
 await new GraphApi().Exec();
-//// ServiceBus Learn
+// ServiceBus Learn
 await new ServiceBus().Exec();
 // QueueStorage Learn
 await new QueueStorage().Exec();
